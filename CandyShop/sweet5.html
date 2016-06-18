@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title></title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="Content-Language" content="zh-CN" />
+	<meta name="Keywords" content="" />
+	<meta name="Description" content="" />
+	<link rel="stylesheet" href="sweet1.css" type="text/css" />
+</head>
+<body>
+<div="header">
+	<div id="header">
+	<span><a href="location.html" class="location">亲，请登录</a></span>
+	<span><a href="register.html" class="location" style="margin-left:10px;color:black;" name="login">免费注册</a></span>
+	<span><a href="shopcar.php" class="location information"  style="margin-left:10px"  name="">我的购物车</a></span>
+	<span><a href="" class="location information">我的信息</a></span>	
+</div>
+
+<div id="mainbody">
+		<img src="img/sweet5.jpg"  title="" width="400px" height="370px"/>
+		<h1>手工糖果</h1><br />
+		<p class="a">甜甜的手工糖果，有趣又好吃！</p>
+		<form action="carin.php" method="post">
+			<div class="price">
+			<br />
+			<span style="font-size:14px;color:#666;">价格</span>&nbsp;&nbsp;<input type="hidden" name="price_old" value="75" /><s>￥75</s>
+			<br />
+			<span style="font-size:14px;color:#666;">优惠价</span>&nbsp;&nbsp;<input type="hidden" name="price_new" value="60" /><span style="font-size:25px;color:#f80;">￥60</span>
+			<input type="hidden" name="name" value="sweet5" /><span style="color:#f51;font-family:Arial;">sweet<input type="hidden" name="id" value="5" /><span>5</span></span>
+			</div>
+			<p class="a">&nbsp;配送
+				<select class="start" name="start">
+					<option value="江苏南京">江苏南京</option>
+					<option value="江苏苏州">江苏苏州</option>
+					<option value="江苏如皋">江苏如皋</option>
+					<option value="新疆乌鲁木齐">新疆乌鲁木齐</option>
+				</select> 至
+				<select class="start" name="end">
+					<option value="江苏南京">江苏南京</option>
+					<option value="江苏苏州">江苏苏州</option>
+					<option value="江苏如皋">江苏如皋</option>
+					<option value="新疆乌鲁木齐">新疆乌鲁木齐</option>
+				</select> 快递￥6.00 卖家承诺24小时内发货
+			</p>
+			<hr /><br />
+			&nbsp;数量&nbsp;&nbsp;<input type="text" style="width:100px;height:30px;" name="number"/>&nbsp;<span style="font-size:14px;">件（限购3件）</span><br />
+			<input type="submit" name="mysubmit1" value="立即购买" class="buy"/>	
+			<input type="submit" name="mysubmit2" value="加入购物车" class="car"/>
+		</form>
+		
+	
+</div>
+
+
+</body>
+</html>

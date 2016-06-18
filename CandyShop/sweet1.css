@@ -1,0 +1,48 @@
+@CHARSET "UTF-8";
+
+*{margin:0;padding:0}
+
+#header{height:50px;width:100%;background:#fff5ee;margin-top:0px;margin-left:-10px;padding-left:10px;}
+#header .location{
+	font-family:Georgia;
+	font-size:12px;
+	color:red;
+	line-height:50px;
+	margin-left:100px;
+	text-decoration:none;
+
+}
+#header .information{
+	float:right;
+	margin-right:100px;
+	color:black;
+}
+
+#mainbody {
+	margin:25px 200px 25px 200px;
+	box-shadow:2px 2px 5px #4f4f4f;
+    padding:28px 20px 30px 20px;
+	background-color:#fff;	
+	overflow:hidden;
+}
+#mainbody img{vertical-align:top;float:left;margin-right:10px;}
+#mainbody h1{display:inline-block;}
+#mainbody p{display:inline-block;}
+#mainbody .price{margin-left:400px;margin-top:10px;width:530px;height:80px;background:#fda;}
+#mainbody .a{margin-top:5px;margin-bottom:5px;font-size:14px;}
+#mainbody .start{display:inline-block;}
+#mainbody .buy{width:120px;height:40px;color:#ff7744;background:#ffa488;margin:10px 20px 0 10px;}
+#mainbody .car{width:140px;height:40px;color:#f51;background:#ff8888;}
+
+
+
+
+
+
+
+
+
+
+
+
+
